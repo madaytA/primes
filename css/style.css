@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'icomoon';
+    src:    url('fonts/icomoon.eot?b12i3l');
+    src:    url('fonts/icomoon.eot?b12i3l#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?b12i3l') format('truetype'),
+        url('fonts/icomoon.woff?b12i3l') format('woff'),
+        url('fonts/icomoon.svg?b12i3l#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-pie-chart2:before {
+    content: "\e900";
+}
+.icon-camera:before {
+    content: "\e3af";
+}
+.icon-directions_boat:before {
+    content: "\e532";
+}
+.icon-box-add:before {
+    content: "\e901";
+}
+.icon-pie-chart:before {
+    content: "\e902";
+}
+.icon-trophy:before {
+    content: "\e903";
+}
+.icon-lab:before {
+    content: "\e904";
+}
+.icon-star-half:before {
+    content: "\e905";
+}
+
